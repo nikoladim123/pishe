@@ -1,0 +1,44 @@
+div{
+  border: 1px solid black;
+}
+.App {
+  border: 2px solid black;
+}
+
+header{
+  overflow: auto;
+  position: relative;
+  height: 10vw;
+  background-image:url('Img/header.png');
+}
+
+.searchBarBox{
+  border:3px solid purple;
+  position: relative;
+  height: 2vw;
+  margin-left: 20vw;
+  margin-top: 7vw;
+}
+
+.LoactionBox{
+  margin-top: 7vw;
+  position: relative;
+  margin-left: 20vw;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  height: 2vw;
+}
+
+.LoactionBox select{
+  width: 10vw;
+}
+
+.InputSearch{
+  width:40vw;
+}
+
+.InputSubmit{
+  width:10vw;
+}
