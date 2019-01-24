@@ -19,10 +19,9 @@ class Location extends Component{
     return(
         <form className="LoactionBox">
           <select>
-              <option value="volvo">Serbia</option>
-              <option value="saab">USA</option>
-              <option value="mercedes">Germany</option>
-              <option value="audi">UnicronLand</option>
+              <option value="volvo">{country.country}</option>
+              <option value="saab">{country.city}</option>
+              <option value="mercedes">{country.timezone}</option>
           </select>
           <input type="text" className="InputSearch"></input>
           <input type="submit" className="InputSubmit"/>
