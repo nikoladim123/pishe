@@ -20,7 +20,7 @@ class LogIn extends Component{
     console.log(error);
   });
   }
-  onClick= () => {
+  onClick = () => {
     this.setState({
       swch:1
     })
