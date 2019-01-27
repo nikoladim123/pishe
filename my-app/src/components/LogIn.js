@@ -45,9 +45,8 @@ class LogIn extends Component{
               <input placeholder="Name" name="name" onChange={this.onChangeName} /> <br/>
               <input placeholder="password" name="password" type="password" /><br/>
               <input placeholder="E-mail" type="email" name="email" /><br/>
-              <button onClick={this.axi}>Register!</button>
           </form>
-          <button onClick={this.axi}>Register!</button>
+          <button onClick={(event) => { this.axi(); this.onClick();}}>Register!</button>
         </div>
         :<p>Hello {this.state.nickName}!</p>}
 
