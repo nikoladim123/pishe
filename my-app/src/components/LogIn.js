@@ -7,7 +7,7 @@ class LogIn extends Component{
     name:''
   }
   axi=()=>{
-    axios.post('https://node-testin.herokuapp.com/api/users', {
+    axios.post('https://node-testin.herokuapp.com/users', {
       nickName:this.state.nickName,
       name:this.state.name,
       password:this.state.password,
@@ -45,9 +45,9 @@ class LogIn extends Component{
               <input placeholder="Name" name="name" onChange={this.onChangeName} /> <br/>
               <input placeholder="password" name="password" type="password" /><br/>
               <input placeholder="E-mail" type="email" name="email" /><br/>
-              <button onClick={this.axi,this.onClick}>Register!</button>
+              <button onClick={this.axi}>Register!</button>
           </form>
-          <button onClick={this.axi,this.onClick}>Register!</button>
+          <button onClick={this.axi}>Register!</button>
         </div>
         :<p>Hello {this.state.nickName}!</p>}
 
