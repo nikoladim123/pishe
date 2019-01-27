@@ -47,6 +47,7 @@ class LogIn extends Component{
               <input placeholder="E-mail" type="email" name="email" /><br/>
               <button onClick={this.axi,this.onClick}>Register!</button>
           </form>
+          <button onClick={this.axi,this.onClick}>Register!</button>
         </div>
         :<p>Hello {this.state.nickName}!</p>}
 
