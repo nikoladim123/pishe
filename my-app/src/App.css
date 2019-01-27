@@ -1,8 +1,8 @@
 div{
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .App {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 header{
@@ -12,13 +12,6 @@ header{
   background-image:url('Img/header.png');
 }
 
-.searchBarBox{
-  border:3px solid purple;
-  position: relative;
-  height: 2vw;
-  margin-left: 20vw;
-  margin-top: 7vw;
-}
 
 .LoactionBox{
   margin-top: 7vw;
@@ -41,4 +34,45 @@ header{
 
 .InputSubmit{
   width:10vw;
+}
+/* LogIn */
+.LogIn{
+  left: 50%;
+  margin-left: -7.5vw;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color:gray;
+}
+.LogIn input{
+  /* border-color: green; */
+  height: 2vw;
+  min-width: 20vw;
+  margin: 0.5vw;
+}
+.LogIn input::placeholder{
+  font-size: 1vw;
+  position: relative;
+  left: 1vw;
+}
+.LogIn button{
+  padding: 0.5vw;
+  background-color: rgb(126,193,150);
+  font-size: 2vw;
+  min-width: 20vw;
+  min-height: 2vw;
+  border:1px solid rgb(126,193,150);
+}
+.LogIn button:hover{
+  cursor: pointer;
+}
+.LogIn p{
+  text-align: center;
+  color:gray;
+  font-size: 2vw;
+  font-weight: 900;
+}
+.LogIn form{
+  margin-top: 10vw;
+  background-color: white
 }
